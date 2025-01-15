@@ -12,8 +12,7 @@ const skinProblems = {
                     "4. Lindungi kulit dengan sunscreen di siang hari",
                     "5. Pertimbangkan untuk menggunakan facial oil di malam hari"
                 ],
-                tips: "Pastikan untuk minum cukup air dan hindari mandi dengan air terlalu panas karena bisa memperparah kulit kering. Rekomendasi kandungan dalam skincare: Hyaluronic acid (asam hialuronat) karena dapat membantu menjaga kelembapan kulit dan mencegah tanda-tanda penuaan."
-                
+                tips: "Pastikan untuk minum cukup air dan hindari mandi dengan air terlalu panas karena bisa memperparah kulit kering. Rekomendasi kandungan dalam skincare: Hyaluronic acid (asam hialuronat) karena dapat membantu menjaga kelembapan kulit dan mencegah tanda-tanda penuaan."    
             }
         ]
     },
