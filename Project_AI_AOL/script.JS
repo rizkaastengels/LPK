@@ -12,7 +12,9 @@ const skinProblems = {
                     "4. Lindungi kulit dengan sunscreen di siang hari",
                     "5. Pertimbangkan untuk menggunakan facial oil di malam hari"
                 ],
-                tips: "Pastikan untuk minum cukup air dan hindari mandi dengan air terlalu panas karena bisa memperparah kulit kering."
+                tips: "Pastikan untuk minum cukup air dan hindari mandi dengan air terlalu panas karena bisa memperparah kulit kering
+                Rekomendasi kandungan dalam skincare: Hyaluronic acid (asam hialuronat) karena dapat membantu menjaga kelembapan kulit dan mencegah tanda-tanda penuaan."
+                
             }
         ]
     },
@@ -66,7 +68,10 @@ const skinProblems = {
                 tips: "Hindari memencet jerawat dan jaga kebersihan wajah serta barang-barang yang bersentuhan dengan wajah seperti handuk dan sarung bantal."
             }
         ]
-    }
+    },
+    "
+    
+
 };
 
 function formatResponse(response) {
@@ -151,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const userInput = document.getElementById("user-input");
 
     // Pesan selamat datang
-    const welcomeMessage = `<div class="bot-message"><strong>BeautyChat:</strong> Halo! Kami dapat membantu anda untuk mengetahui teknik sintesis nanomaterial carbon nanotube. hal yang dijelaskan meliputi: alat dan bahan, skema kerja, dan karakterisasi. </div>`;
+    const welcomeMessage = `<div class="bot-message"><strong>BeautyChat:</strong> Halo! Kami akan membantu anda untuk memberikan solusi mengenai permasalahan kulit yang anda alami.Permasalahan kulit yang dapat anda tanyakan : kulit kering, kulit berminyak, kulit berjerawat, dan kulit sensitif. </div>`;
     chatDisplay.innerHTML = welcomeMessage;
 
     if (sendButton) {
