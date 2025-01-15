@@ -171,5 +171,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-});
+
 
