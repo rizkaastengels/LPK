@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const userInput = document.getElementById("user-input");
 
     // Pesan selamat datang
-    const welcomeMessage = `<div class="bot-message"><strong>BeautyChat:</strong> Halo! Kami akan membantu anda untuk memberikan solusi mengenai permasalahan kulit yang anda alami.Permasalahan kulit yang dapat anda tanyakan yaitu kulit kering, kulit berminyak, kulit berjerawat, dan kulit sensitif. </div>`;
+    const welcomeMessage = `<div class="bot-message"><strong>BeautyChat:</strong> Halo! Kami akan membantu anda untuk memberikan solusi mengenai permasalahan kulit yang anda alami.Permasalahan kulit yang dapat anda tanyakan yaitu kulit kering, kulit berminyak, kulit berjerawat, dan kulit sensitif.</div>`;
     chatDisplay.innerHTML = welcomeMessage;
 
     if (sendButton) {
